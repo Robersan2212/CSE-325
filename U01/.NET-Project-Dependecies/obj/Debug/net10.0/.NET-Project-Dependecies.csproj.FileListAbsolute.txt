@@ -1,0 +1,14 @@
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/bin/Debug/net10.0/.NET-Project-Dependecies
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/bin/Debug/net10.0/.NET-Project-Dependecies.deps.json
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/bin/Debug/net10.0/.NET-Project-Dependecies.runtimeconfig.json
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/bin/Debug/net10.0/.NET-Project-Dependecies.dll
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/bin/Debug/net10.0/.NET-Project-Dependecies.pdb
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/obj/Debug/net10.0/.NET-Project-Dependecies.GeneratedMSBuildEditorConfig.editorconfig
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/obj/Debug/net10.0/.NET-Project-Dependecies.AssemblyInfoInputs.cache
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/obj/Debug/net10.0/.NET-Project-Dependecies.AssemblyInfo.cs
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/obj/Debug/net10.0/.NET-Project-Dependecies.csproj.CoreCompileInputs.cache
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/obj/Debug/net10.0/.NET-Project-Dependecies.dll
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/obj/Debug/net10.0/refint/.NET-Project-Dependecies.dll
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/obj/Debug/net10.0/.NET-Project-Dependecies.pdb
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/obj/Debug/net10.0/.NET-Project-Dependecies.genruntimeconfig.cache
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/.NET-Project-Dependecies/obj/Debug/net10.0/ref/.NET-Project-Dependecies.dll

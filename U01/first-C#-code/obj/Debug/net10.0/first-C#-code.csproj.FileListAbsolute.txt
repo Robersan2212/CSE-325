@@ -1,0 +1,14 @@
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/bin/Debug/net10.0/first-C#-code
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/bin/Debug/net10.0/first-C#-code.deps.json
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/bin/Debug/net10.0/first-C#-code.runtimeconfig.json
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/bin/Debug/net10.0/first-C#-code.dll
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/bin/Debug/net10.0/first-C#-code.pdb
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/obj/Debug/net10.0/first-C#-code.GeneratedMSBuildEditorConfig.editorconfig
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/obj/Debug/net10.0/first-C#-code.AssemblyInfoInputs.cache
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/obj/Debug/net10.0/first-C#-code.AssemblyInfo.cs
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/obj/Debug/net10.0/first-C#-code.csproj.CoreCompileInputs.cache
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/obj/Debug/net10.0/first-C#-code.dll
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/obj/Debug/net10.0/refint/first-C#-code.dll
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/obj/Debug/net10.0/first-C#-code.pdb
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/obj/Debug/net10.0/first-C#-code.genruntimeconfig.cache
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/first-C#-code/obj/Debug/net10.0/ref/first-C#-code.dll
