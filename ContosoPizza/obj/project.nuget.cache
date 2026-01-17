@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "M2z/ttsV5rg=",
+  "success": true,
+  "projectFilePath": "/home/rbrt/development/school/CSE-325-local/CSE-325/ContosoPizza/ContosoPizza.csproj",
+  "expectedPackageFiles": [
+    "/home/rbrt/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0/microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "/home/rbrt/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

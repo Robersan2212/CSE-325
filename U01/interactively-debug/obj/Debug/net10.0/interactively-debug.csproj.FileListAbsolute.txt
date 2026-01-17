@@ -1,0 +1,15 @@
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/bin/Debug/net10.0/interactively-debug
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/bin/Debug/net10.0/interactively-debug.deps.json
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/bin/Debug/net10.0/interactively-debug.runtimeconfig.json
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/bin/Debug/net10.0/interactively-debug.dll
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/bin/Debug/net10.0/interactively-debug.pdb
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/interactively-debug.GeneratedMSBuildEditorConfig.editorconfig
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/interactively-debug.AssemblyInfoInputs.cache
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/interactively-debug.AssemblyInfo.cs
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/interactively-debug.csproj.CoreCompileInputs.cache
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/interactively-debug.sourcelink.json
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/interactively-debug.dll
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/refint/interactively-debug.dll
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/interactively-debug.pdb
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/interactively-debug.genruntimeconfig.cache
+/home/rbrt/development/school/CSE-325-local/CSE-325/U01/interactively-debug/obj/Debug/net10.0/ref/interactively-debug.dll
