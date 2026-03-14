@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: BlazorApp [Default Configuration]",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/BlazorApp/bin/Debug/net10.0/BlazorApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/BlazorApp",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            }
+        },
+        {
+            "name": "C#: BlazorApp (HTTPS)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/BlazorApp/bin/Debug/net10.0/BlazorApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/BlazorApp",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_URLS": "https://localhost:7056;http://localhost:5033"
+            },
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            }
+        }
+    ]
+}

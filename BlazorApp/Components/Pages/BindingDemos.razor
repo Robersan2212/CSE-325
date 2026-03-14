@@ -1,0 +1,58 @@
+@page "/binding-demos"
+@rendermode InteractiveServer
+@using System.Globalization
+
+<PageTitle>Data binding demos</PageTitle>
+
+<h1>Bind controls to data in Blazor</h1>
+
+<section class="content mt-4">
+    <h2>1. Basic @@bind</h2>
+    <p>Your email address is: <input @bind="customerEmail" class="form-control d-inline-block" style="width: 220px;" /></p>
+    <p class="text-muted">Updates when you tab out or press Enter (onchange).</p>
+</section>
+
+<section class="content mt-4">
+    <h2>2. Bind to oninput (live update)</h2>
+    <p><strong>My favorite pizza is: @favPizza</strong></p>
+    <p>Enter your favorite pizza: <input @bind-value="favPizza" @bind-value:event="oninput" class="form-control d-inline-block" style="width: 220px;" /></p>
+    <p class="text-muted">The title updates as you type (oninput).</p>
+</section>
+
+<section class="content mt-4">
+    <h2>3. Format bound date (UK style)</h2>
+    <p>Enter your birth date: <input @bind="birthdate" @bind:format="dd-MM-yyyy" class="form-control d-inline-block" style="width: 140px;" /></p>
+    <p class="text-muted">Format: dd-MM-yyyy</p>
+</section>
+
+<section class="content mt-4">
+    <h2>4. Custom format with property get/set</h2>
+    <p><strong>Pizza: @PizzaName</strong></p>
+    <p>Approval rating: @approvalRating</p>
+    <p>
+        <label>Set a new approval rating: <input @bind="ApprovalRating" class="form-control d-inline-block" style="width: 100px;" /></label>
+    </p>
+    <p class="text-muted">Property formats as "0.000" and parses with en-US culture.</p>
+</section>
+
+@code {
+    private string customerEmail = "user@contoso.com";
+    private string favPizza = "Margherita";
+    private DateTime birthdate = new(2000, 1, 1);
+    private string PizzaName = "Pepperoni";
+    private decimal approvalRating = 1.0m;
+    private static readonly NumberStyles Style = NumberStyles.AllowDecimalPoint | NumberStyles.AllowLeadingSign;
+    private static readonly CultureInfo Culture = CultureInfo.CreateSpecificCulture("en-US");
+
+    private string ApprovalRating
+    {
+        get => approvalRating.ToString("0.000", Culture);
+        set
+        {
+            if (decimal.TryParse(value, Style, Culture, out var number))
+            {
+                approvalRating = Math.Round(number, 3);
+            }
+        }
+    }
+}

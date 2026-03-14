@@ -1,0 +1,51 @@
+@page "/pizzas-demo"
+@page "/pizzas-demo/{pizzaname}"
+@rendermode InteractiveServer
+@using Microsoft.AspNetCore.WebUtilities
+@inject NavigationManager NavManager
+
+<PageTitle>Pizza route demo</PageTitle>
+
+<h1>Blazor router &amp; navigation demo</h1>
+
+<p><strong>I want to order a: @(Pizzaname ?? "(any)")</strong></p>
+@if (!string.IsNullOrEmpty(ToppingName))
+{
+    <p><strong>I want to add this topping: @ToppingName</strong></p>
+}
+
+<p class="text-muted small mt-2">
+    Full URI: @NavManager.Uri<br />
+    Base URI: @NavManager.BaseUri
+</p>
+
+<p>
+    <NavLink href="@NavManager.BaseUri" Match="NavLinkMatch.All" class="nav-link">Home Page</NavLink>
+    |
+    <NavLink href="pizzas-demo/margherita" Match="NavLinkMatch.Prefix" class="nav-link">Margherita</NavLink>
+    |
+    <NavLink href="pizzas-demo/margherita?extratopping=pineapple" class="nav-link">Margherita + Pineapple</NavLink>
+</p>
+
+<button class="btn btn-primary" @onclick="NavigateToCheckout">Go to checkout</button>
+
+@code {
+    [Parameter]
+    public string? Pizzaname { get; set; }
+
+    private string? ToppingName { get; set; }
+
+    protected override void OnInitialized()
+    {
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("extratopping", out var extraTopping))
+        {
+            ToppingName = extraTopping.ToString();
+        }
+    }
+
+    private void NavigateToCheckout()
+    {
+        NavManager.NavigateTo("checkout");
+    }
+}

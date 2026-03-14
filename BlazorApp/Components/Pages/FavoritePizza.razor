@@ -1,0 +1,18 @@
+@page "/favorite-pizza/{favorite?}"
+@rendermode InteractiveServer
+
+<PageTitle>Favorite pizza</PageTitle>
+
+<h1>Choose a Pizza</h1>
+<p>Your favorite pizza is: <strong>@(Favorite ?? "(not specified)")</strong></p>
+<p class="text-muted small">Route: /favorite-pizza or /favorite-pizza/&#123;favorite&#125;</p>
+
+@code {
+    [Parameter]
+    public string? Favorite { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        Favorite ??= "Fiorentina";
+    }
+}

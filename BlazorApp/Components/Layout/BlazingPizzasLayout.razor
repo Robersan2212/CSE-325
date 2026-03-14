@@ -1,0 +1,24 @@
+@inherits LayoutComponentBase
+
+<header class="layout-demo-header">
+    <h1>Blazing Pizza</h1>
+</header>
+
+<nav class="layout-demo-nav">
+    <a href="">Home</a>
+    <a href="pizzas">Browse Pizzas</a>
+    <a href="myorders">Track Your Order</a>
+    <a href="checkout">Checkout</a>
+</nav>
+
+<main class="layout-demo-main">
+    @Body
+</main>
+
+<footer class="layout-demo-footer">
+    @((MarkupString)TrademarkMessage)
+</footer>
+
+@code {
+    public string TrademarkMessage { get; set; } = "Roberto Sanchez, United States &middot; All content is &copy; Blazing Pizzas " + DateTime.UtcNow.Year;
+}

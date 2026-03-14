@@ -1,0 +1,13 @@
+@page "/favorite-pizza-size/{size:int}"
+@rendermode InteractiveServer
+
+<PageTitle>Favorite pizza size</PageTitle>
+
+<h1>Choose a Pizza</h1>
+<p>Your favorite pizza size is: <strong>@Size inches</strong>.</p>
+<p class="text-muted small">Route: /favorite-pizza-size/&#123;size:int&#125; — only matches integers (e.g. /favorite-pizza-size/12)</p>
+
+@code {
+    [Parameter]
+    public int Size { get; set; }
+}

@@ -1,0 +1,44 @@
+@page "/route-params-demo"
+@rendermode InteractiveServer
+
+<PageTitle>Route parameters demo</PageTitle>
+
+<h1>Explore route parameters</h1>
+
+<div class="mt-4">
+    <h2>1. Required parameter</h2>
+    <p><code>@@page "/favorite-pizza/&#123;favorite&#125;"</code> — <code>[Parameter] public string Favorite</code></p>
+    <p>
+        <NavLink href="favorite-pizza/hawaiian" class="btn btn-outline-primary btn-sm me-1">/favorite-pizza/hawaiian</NavLink>
+        <NavLink href="favorite-pizza/margherita" class="btn btn-outline-primary btn-sm">/favorite-pizza/margherita</NavLink>
+    </p>
+</div>
+
+<div class="mt-4">
+    <h2>2. Optional parameter</h2>
+    <p><code>@@page "/favorite-pizza/&#123;favorite?&#125;"</code> — default in OnParametersSet</p>
+    <p>
+        <NavLink href="favorite-pizza" class="btn btn-outline-primary btn-sm me-1">/favorite-pizza (default: Fiorentina)</NavLink>
+    </p>
+</div>
+
+<div class="mt-4">
+    <h2>3. Route constraint (int)</h2>
+    <p><code>@@page "/favorite-pizza-size/&#123;size:int&#125;"</code> — only matches integers</p>
+    <p>
+        <NavLink href="favorite-pizza-size/12" class="btn btn-outline-primary btn-sm me-1">/favorite-pizza-size/12</NavLink>
+        <NavLink href="favorite-pizza-size/8" class="btn btn-outline-primary btn-sm">/favorite-pizza-size/8</NavLink>
+    </p>
+    <p class="text-muted small">/favorite-pizza-size/margherita will not match this route.</p>
+</div>
+
+<div class="mt-4">
+    <h2>4. Catch-all parameter</h2>
+    <p><code>@@page "/favorite-pizzas/&#123;*favorites&#125;"</code> — captures multiple segments</p>
+    <p>
+        <NavLink href="favorite-pizzas/margherita/hawaiian" class="btn btn-outline-primary btn-sm me-1">/favorite-pizzas/margherita/hawaiian</NavLink>
+    </p>
+</div>
+
+@code {
+}

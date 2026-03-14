@@ -1,0 +1,13 @@
+@page "/favorite-pizzas/{*favorites}"
+@rendermode InteractiveServer
+
+<PageTitle>Favorite pizzas (catch-all)</PageTitle>
+
+<h1>Choose Pizzas</h1>
+<p>Your favorite pizzas are: <strong>@(Favorites ?? "(none)")</strong></p>
+<p class="text-muted small">Route: /favorite-pizzas/&#123;*favorites&#125; — captures multiple segments (e.g. /favorite-pizzas/margherita/hawaiian)</p>
+
+@code {
+    [Parameter]
+    public string? Favorites { get; set; }
+}

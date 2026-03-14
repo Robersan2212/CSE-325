@@ -1,0 +1,10 @@
+@page "/pizzas-toppings"
+@rendermode InteractiveServer
+
+<PageTitle>Our Latest Pizzas and Toppings</PageTitle>
+
+<h1>Our Latest Pizzas and Toppings</h1>
+
+<PizzaDisplay PizzaName="Hawaiian" PizzaDescription="The one with pineapple" />
+
+<PizzaToppingDisplay Topping="@(new PizzaTopping() { Name = "Chilli Sauce", Ingredients = "Three kinds of chilli." })" />
